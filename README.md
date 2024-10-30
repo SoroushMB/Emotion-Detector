@@ -28,12 +28,13 @@ pip install opencv-python tensorflow keras numpy
 ```
 
 ## Project Structure
-.
+```
 ├── data
 │   ├── train          # Contains training images organized in subfolders by emotion class
 │   └── test           # Contains test images organized in subfolders by emotion class
 ├── Emotions.py        # Main Python file with model training and real-time emotion detection
 ├── README.md          # Project documentation
+```
 
 ## Usage
 1. Download and Organize Dataset: Place the FER-2013 dataset images in the data/train and data/test directories, organized into subfolders by emotion label.
