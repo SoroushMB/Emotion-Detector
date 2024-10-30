@@ -55,15 +55,15 @@ python Emotions.py
 
 ## Code Overview
 
-- Data Augmentation: The code uses Keras' ImageDataGenerator to augment images for more robust training.
+- **Data Augmentation:** The code uses Keras' ImageDataGenerator to augment images for more robust training.
 
-- CNN Model: The CNN architecture includes three convolutional layers with batch normalization and dropout for improved accuracy and stability.
+- **CNN Model:** The CNN architecture includes three convolutional layers with batch normalization and dropout for improved accuracy and stability.
 
-- Learning Rate Scheduler: The ReduceLROnPlateau callback dynamically adjusts the learning rate based on validation loss.
+- **Learning Rate Scheduler:** The ReduceLROnPlateau callback dynamically adjusts the learning rate based on validation loss.
 
-- Temporal Smoothing: A deque stores the most recent predictions, and the most common emotion is displayed for a smoother output.
+- **Temporal Smoothing:** A deque stores the most recent predictions, and the most common emotion is displayed for a smoother output.
 
-- Class Weights: Adjusts the loss function to account for class imbalance.
+- **Class Weights:** Adjusts the loss function to account for class imbalance.
 
 ## Example Output
 
@@ -71,6 +71,6 @@ The system detects the user's face, predicts their emotion, and displays it on t
 
 ## Future Improvements
 
-- *Advanced Pre-trained Models*: Experiment with transfer learning using models like ResNet or MobileNet.
-- *Additional Emotion Classes*: Include more nuanced emotions by using datasets like AffectNet.
-- *Fine-tuning for Real-World Use*: Apply the model to diverse datasets for improved accuracy in real-world conditions.
+- **Advanced Pre-trained Models**: Experiment with transfer learning using models like ResNet or MobileNet.
+- **Additional Emotion Classes**: Include more nuanced emotions by using datasets like AffectNet.
+- **Fine-tuning for Real-World Use**: Apply the model to diverse datasets for improved accuracy in real-world conditions.
